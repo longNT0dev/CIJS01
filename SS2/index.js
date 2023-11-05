@@ -78,3 +78,18 @@ username.addEventListener("change", (e) => {
         // 3.2. Password > 6, < 20 
         // 3.3. Email có chứa dấu @ 
     // Nếu như người dùng vi phạm cần thông lỗi cho người dùng biết
+
+const submitBtn = document.getElementById('submit-data');
+const submitForm = document.getElementById('form-submit');
+
+submitBtn.addEventListener('click', () => {
+    // TODO: Lấy ra dữ liệu trong các thẻ input
+})
+
+submitForm.addEventListener('keydown',(e) => {
+    e.preventDefault();
+    e.stopPropagation()
+    console.log("Bấm nè")
+})
+
+alert("Lỗi nhập dữ liệu ")
