@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link href="input.css" rel="stylesheet"> -->
+    <style>
+        .button {
+            margin-bottom: 20px;
+            margin-top: 20px;
+            margin-left: 24px;
+            margin-right: 20px;
+            width: 400px;
+            height: 50px;
+            background: color #04AA6D;
+            border-radius: 20px 20px;
+            border: none;
+            font-size: 20px;
+            color: white;
+            font-weight: bold;
+            background-color: #04AA6D;
+        }
+
+        .button:hover {
+            margin-bottom: 20px;
+            margin-top: 20px;
+            margin-left: 24px;
+            margin-right: 20px;
+            width: 400px;
+            height: 50px;
+            border-radius: 20px 20px;
+            border: none;
+            font-size: 20px;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            background-color: #74AE79;
+        }
+
+        .showPassword:hover {
+            margin-left: 308px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+    </style>
+    <title>Log In Form</title>
+</head>
+<body>
+    <div id="container">
+        <form action="" id="info"
+            style="margin-left: 400px; margin-right: 400px; margin-top: 150px; border-style: solid; border-radius: 10px;">
+            <div style="font-size: 30px; margin-left: 20px; margin-top: 30px;">Log in</div>
+            <div id="emailLabel" style="display: flex; margin-left: 20px;height: 40px">
+                <p style="font-weight: bold;">Email</p>
+                <p style="margin-left: 190px;">Need and account?</p>
+                <p style="margin-left: 10px;color:#74AE79;">Sign up</p>
+            </div>
+            <input type="text" id="emailInput" style="margin-left: 20px;margin-right: 20px;width: 400px; height: 50px;">
+            <span id="emailError" style="margin-left: 20px; color: red"></span>
+            <div id="passwordLabel" style="display: flex; margin-top: 45px;margin-left: 20px; height: 40px;">
+                <p style="font-weight: bold;">Password</p>
+                <p style="margin-left: 308px;font-weight: bold;" id="showPassword" class="showPassword">Show</p>
+            </div>
+            <input type="password" id="passwordInput"
+                style="margin-left: 20px;margin-right: 20px;width: 400px; height: 50px;">
+            <span id="passwordError" style="margin-left: 20px; color:red;"></span>
+            <button class="button" id="inputButton">Log in</button>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
