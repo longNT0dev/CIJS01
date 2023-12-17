@@ -21,3 +21,17 @@ Tạo 1 ứng dụng tìm kiếm số điện thoại trong danh bạ với các
 Giao diện tham khảo:, em chỉnh sửa để phù hợp đề bài nhé
 https://www.figma.com/file/bViv9Qm5cpB3VmW1Sf9wd4/Contacts-Search-Template-(Community)-(Community)-(Community)?type=design&node-id=10-216&mode=design&t=NdCi6EOCz8o33M7N-0
 
+
+
+
+/*
+1. Phân chia ứng dụng thành các component nào
+    1.1. Component nào được sử dụng nhiều lần ở nhiều nơi
+    1.2. Component nào chứa các chức năng phức tạp
+2. Xác định state cho component
+    2.1. State riêng biệt cho các component 
+    2.2. State được sử dụng chung bởi nhiều component (đẩy dữ liệu dùng chung lên cho thằng cha)
+    2.3. Dữ liệu dùng toàn hệ thống có thể đẩy lên App
+3. Xác định props cần truyền
+    3.1. Component con cần dữ liệu nào từ thằng cha 
+*/
